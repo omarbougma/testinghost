@@ -5,10 +5,8 @@ services:
     image: mysql
     container_name: database
     environment:
-      MYSQL_ROOT_PASSWORD: admin
       MYSQL_DATABASE: company   
-      MYSQL_USER: pradeep
-      MYSQL_PASSWORD: pradeep
+      MYSQL_USER: root
     ports:
       - 3306:3306
     volumes:
